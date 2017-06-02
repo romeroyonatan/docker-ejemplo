@@ -9,7 +9,7 @@ En el frontend se encuentra la presentación del formulario y es donde se realiz
 la petición al backend. Está escrito en javascript.
 
 El backend es el que se encarga obtener el nombre del número utilizando la
-biblioteca [singing_girl](https://github.com/joac/singing_girl). Esta biblioteca
+biblioteca [singing-girl](https://github.com/joac/singing-girl). Esta biblioteca
 no fue diseñada para trabajar en web, el microservicio backend le brinda esta
 funcionalidad.
 
