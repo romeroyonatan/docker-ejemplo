@@ -1,0 +1,16 @@
+html
+  head
+    title Ejemplo microservicios
+
+  body
+    h1 Ejemplo de microservicios
+    p Ingrese un número en la caja de texto y obtendrá el nombre del número
+
+    form(action='.')
+      div
+        label(for='numero') Número
+        input(type='number' min='0' name='numero' id='numero' value=numero)
+      div
+        input(type='submit' value='Obtener string')
+      div
+        p #{nombre}
