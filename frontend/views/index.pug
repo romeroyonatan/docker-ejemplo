@@ -1,6 +1,7 @@
 html
   head
     title Ejemplo microservicios
+    link(rel="stylesheet", href="https://unpkg.com/sakura.css/css/sakura.css", type="text/css")
 
   body
     h1 Ejemplo de microservicios
@@ -9,7 +10,7 @@ html
     form(action='.')
       div
         label(for='numero') Número
-        input(type='number' min='0' name='numero' id='numero' value=numero)
+        input(type='number' min='0' name='numero' id='numero' value=numero, required='required')
       div
         input(type='submit' value='Obtener string')
       div
